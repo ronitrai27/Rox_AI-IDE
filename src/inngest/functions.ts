@@ -36,6 +36,11 @@ export const demoGenerate = inngest.createFunction(
       return await generateText({
         model: anthropic("claude-3-haiku"),
         prompt: finalPrompt,
+        experimental_telemetry: {
+          isEnabled: true,
+          recordInputs: true,
+          recordOutputs: true,
+        },
       });
     });
   }
