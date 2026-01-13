@@ -1,5 +1,5 @@
 import React from "react";
-import { useProjectsPartial } from "./use-projects";
+import { useProjectsPartial } from "../hooks/use-projects";
 import { Spinner } from "@/components/ui/spinner";
 import { Button } from "@/components/ui/button";
 import { Kbd } from "@/components/ui/kbd";

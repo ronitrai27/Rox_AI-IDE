@@ -1,6 +1,6 @@
 "use client";
 import { useRouter } from "next/navigation";
-import { useProjects } from "./use-projects";
+import { useProjects } from "../hooks/use-projects";
 import { Doc } from "../../../../convex/_generated/dataModel";
 import { Folder, FolderCheck, FolderX } from "lucide-react";
 import { Spinner } from "@/components/ui/spinner";

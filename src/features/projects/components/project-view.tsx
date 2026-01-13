@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { Kbd } from "@/components/ui/kbd";
 import { ProjectList } from "./project-list";
-import { useCreateProjects } from "./use-projects";
+import { useCreateProjects } from "../hooks/use-projects";
 import {
   adjectives,
   animals,

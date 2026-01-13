@@ -13,7 +13,7 @@ export const Providers = ({ children }: { children: React.ReactNode }) => {
             <ConvexProviderWithClerk client={convex} useAuth={useAuth}>
                 {/* wrapped children withinn CLERK authenticated component */}
                 <Authenticated>
-                    <UserButton />
+                    {/* <UserButton /> */}
                     {children}
                 </Authenticated>
                 {/* if not authenticated, show not authenticated */}
